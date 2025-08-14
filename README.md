@@ -10,9 +10,18 @@ The personal device registered in Entra ID (not joined).
 
 Conditional Access so that only registered devices can access certain company resources.
 
-### Step 1 - Prepare the Environment
-- Confirm Entra ID Premium P1/P2 is active in your lab tenant (required for Conditional Access).
+### Step 1 - Prepare the environment
+- In M365 admin center, activate Microsoft Entra ID Premium P1/P2 (required for Conditional Access).
 
-### Step 2 - Create the Test User
+### Step 2 - Create the test user
 - In Entra ID → Users, create a test user.
-- Assign an appropriate Microsoft 365 license (E3/E5 or Business Premium for lab purposes).
+- Assign Microsoft Entra P2 license.
+
+### Step 3 - Deploy a Windows VM and RDP into OS
+- Windows 11 Vm created and RDP'd into OS.
+
+### Step 4 - Register device using test user
+- Connect to domain using test user UPN.
+- Device showing as registered in Entra ID.
+
+<!-- Note that its not possible to switch user account in OS when its a VM opposed to using VirtualBox -->
