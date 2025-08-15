@@ -25,3 +25,6 @@ Conditional Access so that only registered devices can access certain company re
 - Device showing as registered in Entra ID.
 
 <!-- Note that its not possible to switch user account in OS when its a VM opposed to using VirtualBox -->
+
+### Step 5 - Conditional Policy
+- Policy created and activated. Allowing access only to Office 365 products.
